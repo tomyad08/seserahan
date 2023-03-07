@@ -51,17 +51,20 @@ const ProductUnggulan = () => {
             className="owl-theme"
             center={true}
             loop={true}
-            margin={1}
+            margin={10}
             nav={true}
             dots={false}
             autoplay={true}
             autoplayTimeout={4000}
             responsive={{
-              1000: {
+              0: {
                 items: 2,
               },
-              1200: {
+              1000: {
                 items: 3,
+              },
+              1200: {
+                items: 5,
               },
             }}
           >

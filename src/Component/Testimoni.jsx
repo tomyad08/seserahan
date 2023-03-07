@@ -70,10 +70,10 @@ const Testimoni = () => {
                 items: 1,
               },
               600: {
-                items: 2,
+                items: 3,
               },
               1000: {
-                items: 2,
+                items: 3,
               },
             }}
           >
@@ -91,7 +91,7 @@ const Testimoni = () => {
                   />
                 </div>
                 <div className="col-md">
-                  <p style={{ marginTop: "20px" }}>
+                  <p>
                     <q style={{ textAlign: "justify" }}>{value.deskripsi}</q>
                   </p>
                   <h6 className="text-left">{value.nama}</h6>
